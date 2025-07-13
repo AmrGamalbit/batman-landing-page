@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style/style.css">
+	<link rel="icon" href="images/game-control.png" type="image/x-icon">
+	<title>Home</title>
+</head>
+<body>
+	<div class="container">
+		<header>
+			<div class="header-left">
+				<img src="images/halloween.png">
+				<button>Discover Gotham</button>
+			</div>
+			<ul class="sidebar-header sidebar-inital">
+					<li><a href="#"><svg id='menuClose' xmlns="http://www.w3.org/2000/svg" height="26px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+					<li><a href="#batcave">Batcave</a></li>
+					<li><a href="#origin">Origin</a></li>
+					<li><a href="#characters">Characters</a></li>
+					<li><a href="#storyline">Storyline</a></li>
+					<li><a href="#gotham">Gotham</a></li>
+			</ul>
+
+			<ul class="header-right">
+					<li class="hideOnMobile"><a href="#batcave">Batcave</a></li>
+					<li class="hideOnMobile"><a href="#origin">Origin</a></li>
+					<li class="hideOnMobile"><a href="#characters">Characters</a></li>
+					<li class="hideOnMobile"><a href="#storyline">Storyline</a></li>
+					<li class="hideOnMobile"><a href="#gotham">Gotham</a></li>
+					<li><a href="#"></a><svg id="menuToggle" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#FFFFFF"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></li>
+			</ul>
+		</header>
+
+		<section id="batcave" class="batcave-section">
+			<div class="batcave-vid">
+				<video loop autoplay muted plays-inline class="batcave-video">
+					<source src="videos/batcave.mp4" type="video/mp4">
+				</video>
+
+				<div class="batcave-info">
+					<h1 class="info-header">Redefine</h1>
+					<p>Born from tragedy, shaped by purpose — Batman redefines justice through fear, intellect, and resilience. More than a man, he is a symbol. Gotham doesn’t need hope. It needs him.</p>
+					<a class="b" href="https://www.youtube.com/watch?v=mqqft2x_Aa4"><span class="watch">Watch Trailer</span></a>
+				</div>
+				<h1 class="info-text">Lorem</h1>
+			</div>
+		</section>
+
+		<section id="origin" class="orgin-section">
+			<p>Welcome to the Beginning of the Legend</p>
+			<h1>I am vengeance. I am the night. I am Batman.</h1>
+			<div class="orgin-image-box">
+				<img src="images/batman-char.jpg">
+			</div>
+			<h4>From Tragedy to Justice: The Birth of Batman</h4>
+			<h5>After witnessing his parents' murder as a child, Bruce Wayne vows to fight crime. He trains his mind and body relentlessly, becoming Batman—a symbol of fear, justice, and resilience in Gotham.</h5>
+		</section>
+
+		<section class="characters-slider">
+			<section class="characters-section active">
+						<div class="char-img-box">
+							<img src="images/batman.png">
+							<div class="text-overlay animate-text">
+								<h2>Batman</h2>
+								<p>A billionaire orphan driven by the trauma of his parents' murder, Bruce Wayne becomes Batman to protect Gotham. Using fear, intellect, and discipline, he wages war on crime from the shadows. His dual identity embodies the conflict between vengeance and justice, always walking the line between man and symbol.</p>
+								<h5>I do what’s necessary, always</h5>
+							</div>
+						</div>
+
+			</section>
+
+			<section class="characters-section">
+						<div class="char-img-box">
+							<img src="images/joker.png">
+							<div class="text-overlay">
+								<h2>Joker</h2>
+								<p>The Joker thrives on chaos, seeking to dismantle order and sanity. His obsession with Batman is deeply personal, viewing their conflict as a tragic comedy. With no clear motive beyond destruction, he’s Gotham’s deadliest wild card—impossible to predict and impossible to ignore.</p>
+								<h5>Madness is the perfect punchline</h5>
+							</div>
+						</div>
+			</section>
+
+			<section class="characters-section">
+						<div class="char-img-box">
+							<img src="images/arthur.png">
+							<div class="text-overlay">
+								<h2>Alfred</h2>
+								<p>Alfred is more than a butler—he’s Bruce’s surrogate father, advisor, and emotional anchor. With a sharp tongue and a brave heart, he supports Batman’s mission while reminding him of his humanity. Alfred represents loyalty and conscience, always guiding Bruce back when the darkness threatens to consume him.</p>
+								<h5>You needed a father, sir</h5>
+							</div>
+						</div>
+			</section>
+
+
+			<section class="characters-section">
+						<div class="char-img-box">
+							<img src="images/gordan.png">
+							<div class="text-overlay">
+								<h2>Gordan</h2>
+								<p>Commissioner Gordon is Gotham’s moral backbone inside a broken system. Courageous and committed, he works beside Batman to uphold justice when institutions fail. His integrity often puts him at odds with both criminals and peers, but he remains steadfast—a rare light in Gotham’s shadows.</p>
+								<h5>Justice needs allies, not symbols</h5>
+							</div>
+						</div>
+			</section>
+
+
+			<section class="characters-section">
+						<div class="char-img-box">
+							<img src="images/roban.png">
+							<div class="text-overlay">
+								<h2>Robin</h2>
+								<p>Once a circus acrobat orphaned by crime, Dick becomes Batman’s first protégé. As Robin, and later Nightwing, he balances discipline with compassion. He represents hope, growth, and the strength to define one's own path, proving the Bat legacy can evolve without being lost.</p>
+								<h5>We rise from the fall</h5>
+							</div>
+						</div>
+			</section>
+			<div class="char-arrows">
+				<button class="prev-char" id="prev"><</button>
+				<button class="next-char" id="next">></button>
+			</div>
+
+			<div class="char-thumbnails">
+				<div class="char-thumbnail active">
+					<img src="images/batman.png">
+					<div class="char-thumbnail-content">
+						Bruce Wayne / Batman
+					</div>
+				</div>
+
+				<div class="char-thumbnail">
+					<img src="images/joker.png">
+					<div class="char-thumbnail-content">
+						The Joker
+					</div>
+				</div>
+
+				<div class="char-thumbnail">
+					<img src="images/arthur.png">
+					<div class="char-thumbnail-content">
+						Alfred Pennyworth 
+					</div>
+				</div>
+
+				<div class="char-thumbnail">
+					<img src="images/gordan.png">
+					<div class="char-thumbnail-content">
+						James Gordon
+					</div>
+				</div>
+
+				<div class="char-thumbnail">
+					<img src="images/roban.png">
+					<div class="char-thumbnail-content">
+						Robin
+					</div>
+				</div>
+			</div>
+
+			<!-- <div class="pagination">
+					<span class="char-bullet active"></span>
+					<span class="char-bullet"></span>
+					<span class="char-bullet"></span>
+					<span class="char-bullet"></span>
+					<span class="char-bullet"></span>
+			</div> -->
+		</section>
+
+		<section class="timeline-section" id="storyline">
+			<div class="timeline-container container-left glowing-border">
+				<div class="timeline-text-box">
+					<h2>The Origin and Early Years</h2>
+					<small>1939-1940s</small>
+					<p>Bruce Wayne's tragic origin, his rigorous training worldwide, and his debut as Batman, fighting early mobsters and iconic foes like Joker and Catwoman, establishing his mythos.</p>
+					<span class="left-container-arrow"></span>
+				</div>
+			</div>
+
+			<div class="timeline-container container-right glowing-border right">
+				<div class="timeline-text-box">
+					<h2>The Silver Age & Bat-Family Expansion</h2>
+					<small>1950s-1960s</small>
+					<p>Batman's adventures often became lighter, focusing on sci-fi threats and expanding the Bat-Family with Robin, Batgirl, and Bat-Mite, solving intricate mysteries with gadgets.</p>
+					<span class="right-container-arrow"></span>
+				</div>
+			</div>
+
+			<div class="timeline-container container-left glowing-border">
+				<div class="timeline-text-box">
+					<h2>The Dark Age & Modern Revitalization</h2>
+					<small>1970s-1980s</small>
+					<p>A return to darker, grittier detective work. Frank Miller's "Year One" redefined his origin, and stories like "The Killing Joke" explored deep psychological impacts on characters.</p>
+					<span class="left-container-arrow"></span>
+				</div>
+			</div>
+
+			<div class="timeline-container container-right glowing-border right">
+				<div class="timeline-text-box">
+					<h2>Major Crises & City-Wide Events</h2>
+					<small>1990s-2000s</small>
+					<p>Gotham faces catastrophic events like "Knightfall" (Bane breaks Batman), "No Man's Land" (Gotham becomes a wasteland), and "Hush," testing Batman's limits and allies.</p>
+					<span class="right-container-arrow"></span>
+				</div>
+			</div>
+
+			<div class="timeline-container container-left glowing-border">
+				<div class="timeline-text-box">
+					<h2>Rebirth & Evolving Legacy</h2>
+					<small>2010s-Present</small>
+					<p>Modern interpretations delve deeper into Bruce Wayne's psyche, explore his relationships, and introduce new challenges, constantly evolving Batman's enduring legacy in Gotham.</p>
+					<span class="left-container-arrow"></span>
+				</div>
+			</div>
+
+		</section>
+
+		<section class="gotham-section" id="gotham">
+			<div class="gotham-text">
+			<div class="content">
+				<h1 class="title">Gotham
+					<div class="aurora">
+					<div class="aurora__item"></div>
+					<div class="aurora__item"></div>
+					<div class="aurora__item"></div>
+					<div class="aurora__item"></div>
+					</div>
+				</h1>
+			</div>
+			</div>
+			<p class="subtitle shadow-dance-text">Beneath the Shadows, the City Breathes.</p>
+
+			<div class="gotham-img-box">
+				<picture>
+					<source srcset="images/gothamap-mobile.png" media="(max-width: 768px)">
+					<img src="images/gotham_map-remax4.png" alt="Gotham">
+				</picture>
+			</div>
+			<div class="gotham-breif">
+				<h4>Gotham City is a vibrant hub of industry and culture, whose citizens are protected by Batman's constant vigilance.</h4>
+			</div>
+			<div class="gotham-history">
+				<h2>THE CITY'S HISTORY</h2>
+				<p>A Puritan community founded in the early 1600s, Gotham City soon became linked with rumors of occult practices and witchcraft. This notorious reputation was not helped by its proximity to dens of murder such as Slaughter Swamp.
+				Gotham City's distinctive skyline took shape in the 1800s, when Judge Solomon Wayne led a Gothic Revival movement that gave the city a wealth of flying buttresses and gargoyles. These share space with Wayne Industries' shining edifices of glass and steel.
+				The city houses both the fantastically wealthy and the desperately poor. Tension between the two classes has led to incidents like the fatal mugging that orphaned young Bruce Wayne.
+				Gotham City's business district is a haven for boutiques and art galleries. This prosperity has lured both common crooks and Super-Villains. Arkham Asylum houses the criminally insane; other felons are confined to Blackgate Penitentiary, a maximum-security facility.</p>
+			</div>
+		</section>
+
+		<div class="copyright">All Rights Reserved &copy; amrgum2033@gmail.com</div>
+	</div>
+	<script type="text/javascript" src="script/script.js"></script>
+</body>
+</html>
